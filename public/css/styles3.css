@@ -1,0 +1,170 @@
+/* === Global styles === */
+
+body {
+font-family: 'Helvetica Neue', sans-serif;
+font-size: 16px;
+line-height: 1.6;
+color: #555;
+background-color: #fff;
+}
+
+a {
+color: #1abc9c;
+}
+/* Light mode styles */
+body {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+/* Dark mode styles */
+body.dark {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+
+/* === Header styles === */
+
+.navbar {
+background-color: #fff;
+border: none;
+border-radius: 0;
+margin-bottom: 0;
+font-size: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.navbar-brand {
+font-size: 30px;
+font-weight: bold;
+letter-spacing: -1px;
+color: #111;
+text-shadow: 1px 1px #fff;
+}
+
+.navbar-nav > li > a:hover {
+color: #1abc9c;
+background-color: transparent;
+}
+
+.navbar-toggler {
+border-color: transparent;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+outline: none;
+box-shadow: none;
+}
+
+/* === Main content styles === */
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+.form-control {
+border-radius: 0;
+border: none;
+border-bottom: 1px solid #ccc;
+box-shadow: none;
+font-size: 16px;
+font-weight: 400;
+padding: 10px 0;
+}
+
+.form-control:focus {
+border-color: #1abc9c;
+box-shadow: none;
+}
+
+textarea.form-control {
+height: 150px;
+}
+
+.btn {
+border-radius: 0;
+border: none;
+font-size: 16px;
+font-weight: 600;
+padding: 10px 20px;
+}
+
+.btn-primary {
+background-color: #1abc9c;
+color: #fff;
+transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+background-color: #111;
+color: #1abc9c;
+}
+
+/* === Footer styles === */
+
+.footer {
+position: absolute;
+text-align: center;
+bottom: 0;
+width: 100%;
+height: 60px;
+background-color: #1abc9c;
+}
+
+.footer p {
+margin-top: 25px;
+font-size: 12px;
+color: #fff;
+}
+
+/* === Dark mode styles === */
+
+body.dark {
+background-color: #292c35;
+color: #ccc;
+}
+
+.checkbox {
+opacity: 0;
+position: absolute;
+}
+
+.theme-toggle-label {
+width: 50px;
+height: 26px;
+background-color: #111;
+display: flex;
+border-radius: 50px;
+align-items: center;
+justify-content: space-between;
+padding: 5px;
+position: relative;
+right: 20px;
+bottom: 20px;
+transform: scale(1.5);
+}
+
+.theme-toggle-ball {
+width: 20px;
+height: 20px;
+background-color: white;
+position: absolute;
+top: 2px;
+left: 2px;
+border-radius: 50%;
+transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .theme-toggle-label .theme-toggle-ball {
+transform: translateX(24px);
+}
+

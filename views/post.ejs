@@ -1,0 +1,9 @@
+<% include ./partials/header %>
+<h1><%=title%></h1>
+<p><%= content %></p>
+<form action="/update" method="POST">
+  <input type="hidden" name="postId" value="<%= post._id %>">
+  <button type="submit">Update</button>
+</form>
+
+<% include ./partials/footer %>

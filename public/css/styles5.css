@@ -1,0 +1,52 @@
+/* Set default font and color */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Center form on the page */
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+/* Style form inputs and labels */
+input[type="text"], input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+/* Style form button */
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Style error message */
+p.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}

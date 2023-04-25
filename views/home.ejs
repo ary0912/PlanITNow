@@ -1,0 +1,25 @@
+<% include ./partials/header %>
+<p><%= startingContent %></p>
+
+<% posts.forEach(function(post){ %>
+<h1><%=post.title%></h1>
+<p><%=post.content.substring(0,100) + "..."%></p>
+<a href="/posts/<%= post.title%>">Read More</a>
+<form action="/delete" method="post">
+  <input type="hidden" name="postId" value="<%= post._id %>">
+  <button type="submit">Delete</button>
+</form>
+<form action="/update" method="POST">
+  <input type="hidden" name="postId" value="<%= post._id %>">
+  <label for="newTitle">New Title:</label>
+  <input type="text" name="newTitle" id="newTitle">
+  <label for="newContent">New Content:</label>
+  <textarea name="newContent" id="newContent"></textarea>
+  <button type="submit">Update</button>
+</form>
+
+
+<%})%>
+
+
+<% include ./partials/footer %>
