@@ -26,11 +26,13 @@ PlanITNow is a feature-rich web application designed to streamline your daily or
 
 ## Screenshots
 
-![Journal Entry](./images/journal_entry.png)
-*Add captions or additional information if necessary.*
+![Journal Entry](./images/dailyjournaling.png)
 
-![To-Do List](./images/todo_list.png)
-*You can add more images here.*
+![Contact Us](./images/contactus.png)
+
+![To-Do List](./images/todolist.png)
+
+![Keeper App](./images/keeper.png)
 
 ## Contact Us
 
