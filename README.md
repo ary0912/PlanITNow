@@ -26,7 +26,7 @@ PlanITNow is a feature-rich web application designed to streamline your daily or
 
 ## Screenshots
 
-![Journal Entry](./images/dailyjournaling.png)
+![Journal Entry](./images/daily journaling.png)
 
 ![Contact Us](./images/contactus.png)
 
